@@ -1,0 +1,17 @@
+import random
+
+computer = random.randint(1, 10)
+
+player = int(input("Introdueix un número: "))
+
+if (player < 11):
+    if (player > computer):
+        print("El teu número és més gran")
+    elif (player < computer):
+        print("El teu número és més petit")
+    else:
+        print("has encertat el número")
+
+    print("El número de l'ordinador és", computer)
+else:
+    print("El número ha de ser més petit de 10")
