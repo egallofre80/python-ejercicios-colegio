@@ -1,29 +1,22 @@
 def suma(num1, num2):
-    resultat = num1 + num2
-    print(f"La suma és {resultat}")
+    resultado = num1 + num2
+    print(f"La suma es {resultado}")
 
 def resta(num1 , num2):
-    resultat = num1 - num2
-    print(f"La resta és {resultat}")
+    resultado = num1 - num2
+    print(f"La resta es {resultado}")
 
 def mult(num1, num2):
-    resultat = num1 * num2
-    print(f"La multiplicació és {resultat}")
+    resultado = num1 * num2
+    print(f"La multiplicación es {resultado}")
 
-def divisio(num1, num2):
+def division(num1, num2):
     if (num2 > 0):
-        resultat = num1 / num2
-        print(f"La divisió és {resultat}")
+        resultado = num1 / num2
+        print(f"La división es {resultado}")
     else:
-        print("NO es pot fer la divisió")
+        print("No se puede realizar la división")
 
-
-####################
-
-operador1 = int(input("Introdueix el primer operador: "))
-operador2 = int(input("Introdueix el segon operador: "))
-
-suma(operador1, operador2)
-resta(operador1, operador2)
-mult(operador1, operador2)
-divisio(operador1, operador2)
+def exponencial(base, exp):
+    resultado = base ** exp;
+    print(f"{base} elevado a {exp} es: {resultado}")
