@@ -4,7 +4,7 @@ Varios ejercicios para empezar a aprender a programar en Python desde cero.
 
 Lista de ejercicios:
 
-1 - Ejercicio básico con la función print.
+1 - Ejercicio básico con la función print.  
 2 - Ejercicio con la función input y numéricos.
 
 ## Authors
