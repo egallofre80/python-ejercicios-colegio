@@ -1,8 +1,8 @@
 import calculadora
 
 try :
-    operador1 = int(input("Introdueix el primer operador: "))
-    operador2 = int(input("Introdueix el segon operador: "))
+    operador1 = int(input("Introduce el primer operador: "))
+    operador2 = int(input("Introduce el segundo operador: "))
 
     calculadora.suma(operador1, operador2)
     calculadora.resta(operador1, operador2)
@@ -10,5 +10,5 @@ try :
     calculadora.division(operador1, operador2)
     calculadora.exponencial(operador1,  operador2)
 except ValueError:
-        print("Número no válida")
+        print("Número no válido")
 
